@@ -1,11 +1,9 @@
 
 <a href="https://www.bigdatauniversity.com"><img src="https://ibm.box.com/shared/static/cw2c7r3o20w9zn8gkecaeyjhgw3xdgbj.png" width="400" align="center"></a>
 
-<h1 align="center"><font size="5">Classification with Python</font></h1>
+<h1 align="center"><font size="5">Machine Learning Classification</font></h1>
 
-In this notebook we try to practice all the classification algorithms that we learned in this course.
-
-We load a dataset using Pandas library, and apply the following algorithms, and find the best one for this specific dataset by accuracy evaluation methods.
+In this notebook we try to find the best classification algorithm for this specific dataset by accuracy evaluation methods.
 
 Lets first load required libraries:
 
@@ -1577,30 +1575,5 @@ df_scores
   </tbody>
 </table>
 </div>
-
-
-
-# Report
-You should be able to report the accuracy of the built model using different evaluation metrics:
-
-| Algorithm          | Jaccard | F1-score | LogLoss |
-|--------------------|---------|----------|---------|
-| KNN                | ?       | ?        | NA      |
-| Decision Tree      | ?       | ?        | NA      |
-| SVM                | ?       | ?        | NA      |
-| LogisticRegression | ?       | ?        | ?       |
-
-<h2>Want to learn more?</h2>
-
-IBM SPSS Modeler is a comprehensive analytics platform that has many machine learning algorithms. It has been designed to bring predictive intelligence to decisions made by individuals, by groups, by systems – by your enterprise as a whole. A free trial is available through this course, available here: <a href="http://cocl.us/ML0101EN-SPSSModeler">SPSS Modeler</a>
-
-Also, you can use Watson Studio to run these notebooks faster with bigger datasets. Watson Studio is IBM's leading cloud solution for data scientists, built by data scientists. With Jupyter notebooks, RStudio, Apache Spark and popular libraries pre-packaged in the cloud, Watson Studio enables data scientists to collaborate on their projects without having to install anything. Join the fast-growing community of Watson Studio users today with a free account at <a href="https://cocl.us/ML0101EN_DSX">Watson Studio</a>
-
-<h3>Thanks for completing this lesson!</h3>
-
-<h4>Author:  <a href="https://ca.linkedin.com/in/saeedaghabozorgi">Saeed Aghabozorgi</a></h4>
-<p><a href="https://ca.linkedin.com/in/saeedaghabozorgi">Saeed Aghabozorgi</a>, PhD is a Data Scientist in IBM with a track record of developing enterprise level applications that substantially increases clients’ ability to turn data into actionable knowledge. He is a researcher in data mining field and expert in developing advanced analytic methods like machine learning and statistical modelling on large datasets.</p>
-
-<hr>
 
 <p>Copyright &copy; 2018 <a href="https://cocl.us/DX0108EN_CC">Cognitive Class</a>. This notebook and its source code are released under the terms of the <a href="https://bigdatauniversity.com/mit-license/">MIT License</a>.</p>
